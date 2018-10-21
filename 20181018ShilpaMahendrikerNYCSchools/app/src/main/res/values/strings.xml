@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NYC Schools</string>
+    <string name="no_sat_data">No SAT scores available for this school currently</string>
+    <string name="sat_scores">SAT Scores</string>
+    <string name="critical_reading_label">Critical Reading Average :</string>
+    <string name="Math_average_label">Math Average :</string>
+    <string name="Writing_average">Math Average :</string>
+    <string name="network_error_msg">Cannot connect to Internet...Please check your connection!</string>
+    <string name="server_error_msg">The server could not be found. Please try again after some time!!</string>
+    <string name="parsing_error_msg">Parsing error! Please try again after some time!!</string>
+    <string name="title_activity_school_details">NYC School SAT Scores</string>
+</resources>

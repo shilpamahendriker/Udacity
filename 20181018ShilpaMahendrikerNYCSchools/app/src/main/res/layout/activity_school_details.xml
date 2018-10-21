@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolDetailsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+        <!-- Text view to display the school details with SAT Scores-->
+        <TextView
+            android:id="@+id/txtSchoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/txtSchoolLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textStyle="italic"
+
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/txtSatScoresLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtCriticalReadingAvg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/txtMathAvg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/txtWritingAvg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
